@@ -1,0 +1,37 @@
+body{
+    font-size: 20px;
+    text-transform: uppercase;
+      display: flex;
+    margin: 0px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 50vh;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-top: 60px;
+}
+.container{
+    color:red;
+    
+}
+.text{
+    background-color:blue;
+    padding: 15px 13px 15px 13px;
+    text-align: center;
+    text-transform: none;
+    
+}
+.pink{
+    background-color: darkmagenta;
+    padding: 15px 10px 15px 10px;
+}
+.black{
+    background-color: yellow;
+    padding: 15px 25px 15px 25px;
+}
+.brown{
+    background-color: brown;
+    padding: 15px 10px 15px 10px;
+}

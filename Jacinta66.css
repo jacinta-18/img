@@ -1,0 +1,83 @@
+*{
+   margin: 0px;
+   font-family: Verdana, sans-serif;
+  padding: 5px;
+} 
+    header{
+    height: 100vh;
+    background-position: center;
+    background-size: cover;
+    overflow: hidden;
+    background-image: url(goodluck.jpg)
+}
+.container{
+    list-style: none;
+    float: right;
+    display: flex;
+    margin-top: 10px;
+}
+.container li a{
+    color: red;
+    padding: 5px 20px;  
+}
+.container li.activate a{
+    border: 2px solid blue;
+}
+.container li a:hover{
+    border: 2px solid blue;
+
+}
+.logo img{
+    width: 100px;
+    height: 20vh;
+    float: left;
+    padding-top: 20px;
+   
+}
+.type{
+    
+    width: 1200px;
+    margin-left: 0px;
+    margin-top: 0px;
+}
+h1{
+   color: red;
+   font-size: 70px;
+   text-align: center;
+   margin-top: 275px;
+}
+.button{
+    margin-top: 30px;
+    margin-left: 450px;
+}
+.btn{
+    border: 2px solid white;
+    border-radius: 10px;
+     padding: 10px 30px;
+     font-family: Verdana,  sans-serif;
+     color: white;
+     text-decoration: none;
+     margin-right: 20px;
+}
+.btn-one{
+    background-color: red;
+
+}
+.btn-two{
+   font-family: nunito;
+    transition: .3s ease-in;
+}
+.btn-two:hover{
+    background-color: blue;
+}
+
+
+
+
+
+
+
+
+
+
+
